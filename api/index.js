@@ -18,7 +18,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // For local development
-      "https://flood-ditection-project.vercel.app", // Deployed frontend URL
+      "https://hydroshield-frontend.vercel.app", // Deployed frontend URL
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
